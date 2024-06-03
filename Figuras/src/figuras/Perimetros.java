@@ -1,6 +1,6 @@
 package figuras;
 
-public class Perimetros {
+class Perimetros {
 
     // PC = perimetro cuadrado
     public float PC(float lado) {
@@ -8,4 +8,5 @@ public class Perimetros {
         System.out.println("El perimetro es: " + perimetro);
         return perimetro;
     }
+
 }

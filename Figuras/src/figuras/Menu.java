@@ -1,18 +1,19 @@
 package figuras;
 
-public class Menu extends Areas{
+class Menu extends Areas {
 
-    void Menu(){
-        System.out.println("\nEscoge la figura :"
-                         + "\n1. Cuadrado"
-                         + "\n2. Circulo"
-                         + "\n3. Rectangulo"
-                         + "\n4. Triangulo"
-                         + "\n5. Rombo"
-                         + "\n6. Paralelogramo"
-                         + "\n7. Trapecio"
-                         + "\n8. Poligono regular"
-                         + "\n9. Salir");
+    void Menu() {
+        System.out.println("""
+                           Escoge la figura :
+                           1. Cuadrado
+                           2. Circulo
+                           3. Rectangulo
+                           4. Triangulo
+                           5. Rombo
+                           6. Paralelogramo
+                           7. Trapecio
+                           8. Poligono regular
+                           9. Salir""");
     }
 
 }

@@ -3,7 +3,7 @@ package figuras;
 class Menu extends Areas {
 
     void Menu() {
-        System.out.println("""
+        System.out.print("""
                            Escoge la figura :
                            1. Cuadrado
                            2. Circulo
@@ -13,7 +13,7 @@ class Menu extends Areas {
                            6. Paralelogramo
                            7. Trapecio
                            8. Poligono regular
-                           9. Salir""");
+                           9. Salir
+                          Opcion: """);
     }
-
 }

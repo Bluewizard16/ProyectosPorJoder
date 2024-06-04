@@ -21,25 +21,25 @@ public class Figuras{
                     imp.resultCuadrado();
                     break;
                 case 2:
-
+                    imp.resultCirc();
                     break;
                 case 3:
-
+                    imp.resultRect();
                     break;
                 case 4:
-
+                    imp.resultTrian();
                     break;
                 case 5:
-
+                    imp.resultRombo();
                     break;
                 case 6:
-
+                    imp.resultParale();
                     break;
                 case 7:
-
+                    imp.resultTrap();
                     break;
                 case 8:
-
+                    imp.resultPolig();
                     break;
                 case 9:
                     System.out.println("Saliendo.");

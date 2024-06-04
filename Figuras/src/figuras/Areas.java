@@ -9,7 +9,7 @@ class Areas extends Perimetros {
     }
 
     public float calcularAreaCirculo(float radio) {
-        float area = (float) (Math.PI * (Math.pow(radio, 2)));
+        float area = 2 * (float) (Math.PI * radio);
         System.out.println("El area es: " + area);
         return area;
     }
@@ -52,6 +52,7 @@ class Areas extends Perimetros {
     // apotema = Apotema
     public float calcularAreaPoligonoRegular(int n, float ladoP, float apotema) {
         float area = ((n * ladoP) * apotema) / 2;
+        System.out.println("El area es: " + area);
         return area;
     }
 }
